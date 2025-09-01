@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Environment
+.env
+*.env
+
+# VS Code
+.vscode/
+
+# Data & DB
+chroma_db/
+*.sqlite3
+*.db
+*.bin
+
+# Streamlit
+.streamlit/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Other
+*.bak
+*.swp
+*.tmp
+
+# Node
+node_modules/
+
+# Ignore requirements.txt lock files
+poetry.lock
+Pipfile.lock
+
+# Ignore test outputs
+htmlcov/
+coverage.xml
+
+# Ignore backups
+*.backup
+
+# Ignore compiled files
+*.so
+*.dll
+*.exe
+*.out
+*.class
+
+# Ignore cache
+.cache/
+
+# Ignore uploads
+uploads/
